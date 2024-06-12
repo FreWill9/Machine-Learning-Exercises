@@ -19,11 +19,11 @@ print(img.shape)
 
 assert 2 == len(img.shape)
 
-# plt.figure()
-# plt.gray()
+plt.figure()
+plt.gray()
 
-# plt.imshow(img, interpolation="nearest")
-# plt.show()
+plt.imshow(img, interpolation="nearest")
+plt.show()
 
 # plt.imshow(img, interpolation="bicubic")
 # plt.show()
